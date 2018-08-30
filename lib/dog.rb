@@ -7,13 +7,13 @@ class Dog
 attr_accessor :name
 
 def initialize(name)
-  binding.pry
   @name = name
   @@all << self
 end
 
 def self.all
-  puts
+  @@all.each do |name|
+
 end
 
 end
