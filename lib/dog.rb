@@ -12,9 +12,8 @@ end
 
 
 def self.all
-  binding.pry
-  @@all.each do |name|
-    puts "#{name}"
+  @@all.each do |@name|
+    puts @name
   end
 end
 
