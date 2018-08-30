@@ -13,9 +13,8 @@ class Dog
 
   def self.all
     @@all.each do |name|
-      name = name.name
+      puts "#{name}"
     end
-    puts "#{name}"
   end
 
   def self.clear_all
