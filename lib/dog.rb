@@ -15,6 +15,7 @@ def self.all
   @@all.each do |name|
     name = @name
   end
+  puts @name
 end
 
 end
