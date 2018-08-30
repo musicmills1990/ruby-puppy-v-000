@@ -13,9 +13,9 @@ end
 
 def self.all
   @@all.each do |name|
-    name = @name
-  end
-  puts @name
+    puts "#{name}"
 end
 
+def self.clear_all
+  @@all.clear
 end
