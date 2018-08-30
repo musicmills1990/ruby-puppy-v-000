@@ -18,9 +18,9 @@ def self.all
 end
 
 def self.clear_all
-
+  if @@all != []
     @@all.clear
-
+  end
 end
 
 
