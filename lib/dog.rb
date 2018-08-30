@@ -17,5 +17,10 @@ def self.all
 end
 
 def self.clear_all
-  @@all.clear
+  if @@all != []
+    @@all.clear
+  end
+end
+
+
 end
