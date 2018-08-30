@@ -9,13 +9,13 @@ def initialize(name)
   @name = name
   @@all << self
 end
-binding.pry
 
 def self.all
   @@all.each do |name|
     puts "#{name}"
   end
 end
+binding.pry
 
 def self.clear_all
     @@all.clear
