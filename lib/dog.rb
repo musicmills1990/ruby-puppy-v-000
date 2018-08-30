@@ -12,9 +12,10 @@ end
 
 
 def self.all
-  @@all.each do |@name|
-    puts @name
+  @@all.each do |name|
+    name = @name
   end
+  puts @name
 end
 
 def self.clear_all
