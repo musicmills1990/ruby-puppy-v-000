@@ -13,7 +13,7 @@ end
 
 def self.all
   @@all.each do |name|
-    name = @name
+    puts "#{name}"
   end
 end
 
