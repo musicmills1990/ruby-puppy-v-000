@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def self.all
-  puts @@all
+  puts @@all.object_id
 end
 
 end
